@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+
+@import "tailwindcss";
+
+
+* {
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0a0a0a00;
+  color: #f5f0e8;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #181717a1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c19e45;
+  border-radius: 3px;
+}
