@@ -6,8 +6,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://ai-ecommerce.vercel.app',  // ← ton URL Vercel exacte
-    /\.vercel\.app$/  // ← tous les sous-domaines Vercel
+    'https://aiecommerce-aecj2qdtk-narjes.vercel.app',
+    /\.vercel\.app$/
   ],
   credentials: true
 }));
